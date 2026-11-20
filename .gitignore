@@ -36,6 +36,10 @@ Thumbs.db
 /Barengin_Backend/.phpunit.cache/
 /Barengin_Backend/storage/app/public/avatars/
 
+# Allow shared project database
+!/database/
+!/database/*.sql
+
 /Barengin_Backend/debug-schema.php
 /Barengin_Backend/debug-test.php
 /Barengin_Backend/inspect.php
