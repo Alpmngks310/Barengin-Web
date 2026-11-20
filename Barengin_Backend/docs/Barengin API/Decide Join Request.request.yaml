@@ -1,0 +1,10 @@
+$kind: http-request
+url: "{{baseUrl}}/join-requests/{{joinRequestId}}/decision"
+method: PATCH
+headers:
+  Authorization: Bearer {{token}}
+  Content-Type: application/json
+body:
+  type: text
+  content: '{"status":"accepted","decision_note":"Sampai ketemu!"}'
+order: 10000

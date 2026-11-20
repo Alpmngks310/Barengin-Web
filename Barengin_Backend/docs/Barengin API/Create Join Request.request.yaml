@@ -1,0 +1,10 @@
+$kind: http-request
+url: "{{baseUrl}}/activities/{{activityId}}/join-requests"
+method: POST
+headers:
+  Authorization: Bearer {{token}}
+  Content-Type: application/json
+body:
+  type: text
+  content: '{"message":"Saya tertarik bergabung."}'
+order: 9000

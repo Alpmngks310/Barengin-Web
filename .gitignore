@@ -1,0 +1,42 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Runtime / logs
+*.log
+/logs/
+/tmp/
+/cache/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Dependencies, if added during later phases
+/vendor/
+/node_modules/
+
+# Local database / backups
+*.sqlite
+*.db
+*.sql
+*.bak
+*.dump
+*.zip
+
+# Local backend/API configuration
+/config/api.local.php
+/storage/
+*.log
+
+# Laravel local cache and generated files
+/Barengin_Backend/.phpunit.cache/
+/Barengin_Backend/storage/app/public/avatars/
+
+/Barengin_Backend/debug-schema.php
+/Barengin_Backend/debug-test.php
+/Barengin_Backend/inspect.php
+/Barengin_Backend/run-tests.php

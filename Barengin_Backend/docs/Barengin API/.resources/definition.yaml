@@ -1,0 +1,7 @@
+$kind: collection
+description: Local development collection for Barengin Laravel backend.
+variables:
+  baseUrl: http://127.0.0.1:8000/api
+  token: ""
+  activityId: "1"
+  joinRequestId: "1"

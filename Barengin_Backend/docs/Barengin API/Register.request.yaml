@@ -1,0 +1,20 @@
+$kind: http-request
+url: "{{baseUrl}}/auth/register"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "name": "Demo User",
+      "username": "demo_user",
+      "email": "demo@example.com",
+      "password": "StrongPass123",
+      "password_confirmation": "StrongPass123",
+      "adult_confirmed": true,
+      "terms_accepted": true,
+      "privacy_accepted": true,
+      "device_name": "Postman"
+    }
+order: 3000

@@ -1,0 +1,7 @@
+# Use this workspace to collaborate
+workspace:
+  id: 917ad6f5-47b5-4413-a592-2ea5af4464ac
+
+localResources:
+  collections:
+    - ../Barengin_Backend/docs/Barengin API

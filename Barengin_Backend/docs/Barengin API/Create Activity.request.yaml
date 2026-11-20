@@ -1,0 +1,28 @@
+$kind: http-request
+url: "{{baseUrl}}/activities"
+method: POST
+headers:
+  Authorization: Bearer {{token}}
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "category_id": 1,
+      "title": "Badminton Weekend",
+      "description": "Main badminton santai untuk semua level.",
+      "participant_level": "all_levels",
+      "starts_at": "2026-12-12T01:00:00Z",
+      "ends_at": "2026-12-12T03:00:00Z",
+      "timezone": "Asia/Jakarta",
+      "venue_name": "GOR Example",
+      "address": "Jalan Example No. 1",
+      "area": "Dago",
+      "city": "Bandung",
+      "province": "Jawa Barat",
+      "country_code": "ID",
+      "capacity": 8,
+      "budget_amount": 30000,
+      "currency": "IDR"
+    }
+order: 7000

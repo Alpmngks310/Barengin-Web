@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{baseUrl}}/auth/login"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "email": "demo@example.com",
+      "password": "StrongPass123",
+      "device_name": "Postman"
+    }
+order: 4000

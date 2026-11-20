@@ -1,0 +1,6 @@
+$kind: http-request
+url: "{{baseUrl}}/activities/{{activityId}}/publish"
+method: POST
+headers:
+  Authorization: Bearer {{token}}
+order: 8000
